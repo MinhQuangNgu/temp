@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A33092">
+
+    <EditText
+        android:id="@+id/editTextText6"
+        style="@style/input_text"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="82dp"
+        android:background="#3BFFFFFF"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="text"
+        android:paddingLeft="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        style="@style/input_text"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="18dp"
+        android:background="#3BFFFFFF"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText6" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="289dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="99dp"
+        android:background="@drawable/insta"
+        android:backgroundTint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+
+
+        android:layout_marginStart="25dp"
+        android:backgroundTint="#65FFFFFF"
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="@+id/guideline" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="290dp"
+        android:layout_height="45dp"
+
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#A33092"
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="@+id/button18" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="392dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="16dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="28dp"
+        android:text="Forgot your login details ?"
+        android:textColor="#7CFFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button18" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:text="Get help signing in."
+        android:textColor="#BEFFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/button18" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="187dp"
+        android:layout_marginTop="35dp"
+        android:text="OR"
+        android:textColor="#BEFFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="31dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="83dp"
+        android:background="@drawable/fb_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="29dp"
+        android:text="Log in with Facebook"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/imageView8"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
